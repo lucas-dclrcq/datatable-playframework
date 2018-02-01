@@ -10,4 +10,8 @@ public class HomeController extends Controller {
         return ok(index.render("DataTable with Play! Framework"));
     }
 
+    public Result humanList() {
+        return ok();
+    }
+
 }
